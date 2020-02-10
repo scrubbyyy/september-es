@@ -1,0 +1,110 @@
+#kids-container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: none;
+}
+
+#kids-loader span {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -webkit-animation: kids-loader 10s infinite linear;
+  -moz-animation: kids-loader 10s infinite linear;
+  opacity: 0;
+}
+
+#kids-loader #pepperoni {
+  background: url("../img/pepperoni.jpg");
+  background-size: cover;
+}
+
+#kids-loader #alfredo {
+  background: url("../img/alfo.jpg");
+  background-size: cover;
+}
+
+#kids-loader #charlie {
+  background: url("../img/charlo.jpg");
+  background-size: cover;
+}
+
+#kids-loader span:nth-child(5n+5) {
+  -webkit-animation-delay: 1.3s;
+  -moz-animation-delay: 1.3s;
+}
+
+#kids-loader span:nth-child(3n+2) {
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+}
+
+#kids-loader span:nth-child(2n+5) {
+  -webkit-animation-delay: 1.7s;
+  -moz-animation-delay: 1.7s;
+}
+
+#kids-loader span:nth-child(3n+10) {
+  -webkit-animation-delay: 2.7s;
+  -moz-animation-delay: 2.7s;
+}
+
+#kids-loader span:nth-child(7n+2) {
+  -webkit-animation-delay: 3.5s;
+  -moz-animation-delay: 3.5s;
+}
+
+#kids-loader span:nth-child(4n+5) {
+  -webkit-animation-delay: 5.5s;
+  -moz-animation-delay: 5.5s;
+}
+
+#kids-loader span:nth-child(3n+7) {
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+}
+
+@-webkit-keyframes kids-loader {
+  0% {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    -webkit-transform: translate(0, 0px) rotateZ(0deg);
+  }
+  75% {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    -webkit-transform: translate(100px, 600px) rotateZ(270deg);
+  }
+  100% {
+    width: 80px;
+    height: 80px;
+    opacity: 0;
+    -webkit-transform: translate(150px, 800px) rotateZ(360deg);
+  }
+}
+
+@-moz-keyframes kids-loader {
+  0% {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    -webkit-transform: translate(0, 0px) rotateZ(0deg);
+  }
+  75% {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    -webkit-transform: translate(100px, 600px) rotateZ(270deg);
+  }
+  100% {
+    width: 80px;
+    height: 80px;
+    opacity: 0;
+    -webkit-transform: translate(150px, 800px) rotateZ(360deg);
+  }
+}
