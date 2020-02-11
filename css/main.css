@@ -32,7 +32,7 @@ body {
 
 .main-header .main-title {
   color: white;
-  font-size: 5vw;
+  font-size: 8vw;
   letter-spacing: 1px;
   font-weight: bold;
   white-space: nowrap;
@@ -53,8 +53,8 @@ body {
 }
 
 .card#info {
-  margin-left: 69px;
-  margin-right: 69px;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
 #intro {
