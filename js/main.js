@@ -9,7 +9,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 function openNav() {
-  document.getElementById('nav-bar').style.width = '205px';
+  document.getElementById('nav-bar').style.width = '215px';
 };
 
 function closeNav() {
