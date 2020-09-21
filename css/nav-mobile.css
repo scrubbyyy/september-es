@@ -11,9 +11,10 @@
     top: 0;
     left: 0;
     background-color: #ebe5d8;
-    overflow: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    overflow-wrap: break-word;
+    overflow: auto;
   }
 
   #nav-bar a {
